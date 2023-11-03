@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: white;
+  background-color: #171934;
+  margin-top: 40px;
+
+  .aplicacion-tareas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .tareas-lista-principal {
+      width: 600px;
+      min-height: 500px;
+      background-color: #dfdfdf;
+      padding: 25px;
+      margin: 10px;
+      border-radius: 26px;
+
+      h1 {
+        color: #171934;
+        font-size: 25px;
+        text-align: center;
+        margin: 20px 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    .aplicacion-tareas {
+      .tareas-lista-principal {
+        width: 90vw;
+      }
+    }
+  }
+}
