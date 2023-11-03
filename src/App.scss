@@ -19,13 +19,15 @@ body {
     .tareas-lista-principal {
       width: 600px;
       min-height: 500px;
-      background-color: #dfdfdf;
+      background: url(https://fotos.perfil.com/2021/02/03/trim/1040/780/gondola-de-supermercado-20210203-1123176.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
       padding: 25px;
       margin: 10px;
       border-radius: 26px;
 
       h1 {
-        color: #171934;
+        color: #bae95c;
         font-size: 25px;
         text-align: center;
         margin: 20px 0;
